@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0d5a3b7-d754-48a5-834e-6ff1480a363c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Inbox/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/androidTest/java/com/example/inbox/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/java/com/example/inbox/Adapter/AdapterImbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/java/com/example/inbox/Entidades/Mensajes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/java/com/example/inbox/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/layout/item_imbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/app/src/test/java/com/example/inbox/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inbox/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/java/com/example/recyclerview/Cancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/java/com/example/recyclerview/Entidades/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/res/layout/activity_cancion.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/res/layout/custon_view2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contactos/app/src/main/java/com/example/contactos/Adaptar/NameAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contactos/app/src/main/java/com/example/contactos/Adaptar/NameAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contactos/app/src/main/java/com/example/contactos/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Contactos/app/src/main/java/com/example/contactos/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecyclerView/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecyclerView/app/src/main/java/com/example/recyclerview/Adapter/CarAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/java/com/example/recyclerview/Adapter/CarAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecyclerView/app/src/main/java/com/example/recyclerview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/java/com/example/recyclerview/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecyclerView/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecyclerView/app/src/main/res/layout/custom_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/res/layout/custom_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecyclerView/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RecyclerView/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1728" />
+    <option name="y" value="163" />
+    <option name="width" value="1026" />
+    <option name="height" value="554" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Proyectos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectos" type="462c0819:PsiDirectoryNode" />
+              <item name="Contactos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Proyectos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyectos" type="462c0819:PsiDirectoryNode" />
+              <item name="Contactos" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0d5a3b7-d754-48a5-834e-6ff1480a363c" name="Default Changelist" comment="" />
+      <created>1573050128235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573050128235</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3296131" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>
