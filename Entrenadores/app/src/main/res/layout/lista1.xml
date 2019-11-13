@@ -42,7 +42,7 @@
                 android:layout_height="23dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Nombre"
+                android:text="Anime"
                 android:textColor="@android:color/background_dark"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +57,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Medallas"
+                android:text="Episodio"
                 android:textColor="@android:color/background_dark"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -66,20 +66,6 @@
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.468" />
-
-            <TextView
-                android:id="@+id/textPokemon"
-                android:layout_width="155dp"
-                android:layout_height="29dp"
-                android:layout_marginStart="16dp"
-                android:text="Medallas"
-                android:textColor="@android:color/background_dark"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
-
-                app:layout_constraintTop_toBottomOf="@+id/textMedalla"
-                app:layout_constraintVertical_bias="0.483" />
 
             <Button
                 android:id="@+id/btnPokemon"

@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -20,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.recyclerview.Cancion;
 import com.example.recyclerview.Entidades.Album;
 
+import com.example.recyclerview.Entidades.Animes;
 import com.example.recyclerview.Escuchar;
 import com.example.recyclerview.R;
 
@@ -29,10 +31,11 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.NameViewHolder>
     implements View.OnClickListener{
 
     private int position2;
-    private List<Album> data;
+    private   List<Animes> data;
     private View.OnClickListener listener;
     private ToggleButton toggleButton;
-    public CarAdapter(List<Album> data){
+    ImageView imageView;
+    public CarAdapter(List<Animes> data){
         this.data = data;
     }
 
@@ -59,20 +62,26 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.NameViewHolder>
         TextView textTitle = holder.itemView.findViewById(R.id.textTitle);
         TextView textDescripcion = holder.itemView.findViewById(R.id.textArtista);
 
-        TextView textNum = holder.itemView.findViewById(R.id.textNunCani);
+        imageView = holder.itemView.findViewById(R.id.imageView2);
+
+       // TextView textNum = holder.itemView.findViewById(R.id.textNunCani);
 
         Button bt = holder.itemView.findViewById(R.id.idbutton);
-        Button bt2 = holder.itemView.findViewById(R.id.idbutton2);
-
         Button btf = holder.itemView.findViewById(R.id.btnFavorito);
 
-        Album valor = data.get(position);
+        Animes valor = data.get(position);
 
         textTitle.setText(valor.getNombre());
-        textDescripcion.setText(valor.getArtista());
-        textNum.setText(valor.getNumeroCanion());
+        textDescripcion.setText(valor.getEpisodio());
+        imageView.setImageResource(valor.getImagen());
+        textTitle.setTag(position);
+
+     //   textNum.setText(valor.getNumeroCanion());
         bt.setOnClickListener(this);
-        bt2.setOnClickListener(this);
+        bt.setTag(position);
+        btf.setTag(position);
+
+      // bt2.setOnClickListener(this);
         btf.setOnClickListener(this);
     }
     @Override
@@ -88,26 +97,22 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.NameViewHolder>
     public void onClick(View view) {
         Context context = view.getContext();
         Intent intent;
+        int postion = (int) view.getTag();
+
         int estado = 0;
-        Album valor = data.get(position2);
+        Animes valor = data.get(postion);
 
         switch (view.getId()){
             case R.id.idbutton:
 
                 intent = new Intent(context, Cancion.class);
                 intent.putExtra("Nombre",valor.getNombre());
-                intent.putExtra("Artista",valor.getArtista());
-                intent.putExtra("Numero",valor.getNumeroCanion());
+                intent.putExtra("img",valor.getImagen());
+                intent.putExtra("episo",valor.getEpisodio());
                 context.startActivity(intent);
                // listener.onClick(view);
                 break;
-            case (R.id.idbutton2):
-                intent = new Intent(context, Escuchar.class);
-                intent.putExtra("link",valor.getNombre());
-                context.startActivity(intent);
-                break;
             case (R.id.btnFavorito):
-
                     Toast.makeText(context, "Marcado Como Favorito", Toast.LENGTH_SHORT).show();
             break;
         }

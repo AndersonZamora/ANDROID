@@ -8,12 +8,12 @@ import android.os.Bundle;
 
 import com.example.entrenadores.Adapter.AdapterView;
 import com.example.entrenadores.Entidades.Entrenadores;
+import com.example.entrenadores.Entidades.Pokemones;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
 
 
     @Override
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerViewNames.setAdapter(adapterView);
     }
+
     public List<Entrenadores> ListaEntrenadores(){
 
             List<Entrenadores> entrenadores = new ArrayList<>();

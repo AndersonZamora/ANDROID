@@ -16,7 +16,11 @@ import java.util.List;
 
 public class ListaPokemon extends AppCompatActivity {
 
-    int i;
+    private ArrayList<Pokemones> listaPokemones;
+    public void changeItem(int positon,int imagePoke){
+
+    }
+
     String [] estrellas = {"Estrella1","Estrella2","Estrella3","Estrella1","Estrella5"};
     int [] etrellaImge = {
             R.drawable.ic_action_name,
@@ -39,7 +43,6 @@ public class ListaPokemon extends AppCompatActivity {
         RecyclerView recyclerViewNames = findViewById(R.id.carId2);
         recyclerViewNames.setHasFixedSize(true);
 
-
         LinearLayoutManager linearManager = new  LinearLayoutManager(getApplicationContext());
         recyclerViewNames.setLayoutManager(linearManager);
 
@@ -47,26 +50,17 @@ public class ListaPokemon extends AppCompatActivity {
 
         AdapterView3 adapterView3 = new AdapterView3(data);
 
-        //AdapterView2 adapterView2 = new AdapterView2(data);
-
         recyclerViewNames.setAdapter(adapterView3);
 
     }
     public List<Pokemones> PokemonesLista(){
 
-        List<Pokemones> pokemones = new ArrayList<>();
-
-      //  Pokemones pokemones1 = new Pokemones("Pikachu","Electrio",estrellas[i]);
-
-
-        pokemones.add(new Pokemones("Pikachu","Electrico",etrellaImge[0],etrellaImge2[0],etrellaImge3[0]));
-        pokemones.add(new Pokemones("Moltres","fuego/volador",etrellaImge[0],etrellaImge2[0],etrellaImge3[1]));
-        pokemones.add(new Pokemones("Zapdos","eléctrico/volador",etrellaImge[0],etrellaImge2[0],etrellaImge3[2]));
-        pokemones.add(new Pokemones("Squirtle","Agua",etrellaImge[0],etrellaImge2[0],etrellaImge3[3]));
-        pokemones.add(new Pokemones("Nidoqueen","Taladro",etrellaImge[0],etrellaImge2[0],etrellaImge3[4]));
-     //   pokemones.add(pokemones1);
-
-
-        return pokemones;
+        listaPokemones = new ArrayList<>();
+        listaPokemones.add(new Pokemones("Pikachu","Electrico",etrellaImge[0],etrellaImge2[0],etrellaImge3[0]));
+        listaPokemones.add(new Pokemones("Moltres","fuego/volador",etrellaImge[0],etrellaImge2[0],etrellaImge3[1]));
+        listaPokemones.add(new Pokemones("Zapdos","eléctrico/volador",etrellaImge[0],etrellaImge2[0],etrellaImge3[2]));
+        listaPokemones.add(new Pokemones("Squirtle","Agua",etrellaImge[0],etrellaImge2[0],etrellaImge3[3]));
+        listaPokemones.add(new Pokemones("Nidoqueen","Taladro",etrellaImge[0],etrellaImge2[0],etrellaImge3[4]));
+        return listaPokemones;
     }
 }

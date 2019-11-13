@@ -15,6 +15,10 @@ public class Pokemones {
         this.imagePokemon = imagePokemon;
     }
 
+    public void changeImagen(int imageView){
+        this.imageView = imageView;
+    }
+
     public int getImagePokemon() {
         return imagePokemon;
     }

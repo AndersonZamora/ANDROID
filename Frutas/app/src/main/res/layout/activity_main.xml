@@ -6,13 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="4dp"
+       android:scrollbars="vertical"
+       android:background="@android:color/darker_gray"
+       android:layout_marginBottom="100dp"/>
 
+   <EditText
+       android:id="@+id/editText_insert"
+       android:layout_width="40dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+
+       android:layout_marginStart="48dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+       app:layout_constraintVertical_bias="0.49" >
+
+   </EditText>
+
+   <EditText
+       android:id="@+id/editText_remove"
+       android:layout_width="40dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+
+       android:layout_marginStart="24dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toEndOf="@+id/button_insert"
+       app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+       app:layout_constraintVertical_bias="0.436"
+       android:inputType="number">
+
+   </EditText>
+
+   <Button
+       android:id="@+id/button_insert"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="insert"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.068"
+       app:layout_constraintStart_toEndOf="@+id/editText_insert"
+       app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+       app:layout_constraintVertical_bias="0.519" />
+
+   <Button
+       android:id="@+id/button_remove"
+       android:layout_width="89dp"
+       android:layout_height="51dp"
+       android:inputType="number"
+       android:text="REMOVE"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.318"
+       app:layout_constraintStart_toEndOf="@+id/editText_insert2"
+       app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+       app:layout_constraintVertical_bias="0.461" />
 </androidx.constraintlayout.widget.ConstraintLayout>

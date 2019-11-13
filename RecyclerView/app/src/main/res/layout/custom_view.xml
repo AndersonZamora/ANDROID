@@ -28,7 +28,6 @@
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:background="#00530D0D"
-                android:foreground="@drawable/logo"
 
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +54,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Artista"
+                android:text="Episodio"
                 android:textColor="@android:color/background_dark"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -64,18 +63,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.462" />
 
-            <TextView
-                android:id="@+id/textNunCani"
-                android:layout_width="49dp"
-                android:layout_height="26dp"
-                android:layout_marginStart="16dp"
-                android:text="1"
-                android:textColor="@android:color/background_dark"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.847" />
+
 
             <Button
                 android:id="@+id/idbutton"
@@ -85,18 +73,6 @@
                 android:text="@string/Ir"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/idbutton2"
-                app:layout_constraintTop_toBottomOf="@+id/textArtista"
-                app:layout_constraintVertical_bias="0.238" />
-
-            <Button
-                android:id="@+id/idbutton2"
-                android:layout_width="82dp"
-                android:layout_height="36dp"
-                android:text="@string/g"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/idbutton"
-                app:layout_constraintStart_toEndOf="@+id/textNunCani"
                 app:layout_constraintTop_toBottomOf="@+id/textArtista"
                 app:layout_constraintVertical_bias="0.238" />
 

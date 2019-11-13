@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.recyclerview.Entidades.Album;
@@ -19,7 +20,9 @@ public class Escuchar extends AppCompatActivity {
         setContentView(R.layout.activity_escuchar);
         TextView hola = findViewById(R.id.textView);
 
+
         String dato = getIntent().getStringExtra("link");
+
 
         hola.setText("Hola " + dato);
 

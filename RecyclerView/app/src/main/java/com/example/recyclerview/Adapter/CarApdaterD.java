@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.recyclerview.Entidades.Episodio;
 import com.example.recyclerview.R;
 
 import org.w3c.dom.Text;
@@ -17,9 +18,11 @@ import java.util.List;
 public class CarApdaterD extends RecyclerView.Adapter<CarApdaterD.NameViewHolder> {
 
     String a;
+    private List<Episodio> data;
 
-    public CarApdaterD(String  a) {
+    public CarApdaterD(String  a,List<Episodio> data) {
         this.a = a;
+        this.data = data;
     }
 
     @NonNull
@@ -37,16 +40,19 @@ public class CarApdaterD extends RecyclerView.Adapter<CarApdaterD.NameViewHolder
     @Override
     public void onBindViewHolder(@NonNull NameViewHolder holder, int position) {
 
-        TextView texNomb = holder.itemView.findViewById(R.id.texNom);
+        TextView texNomb = holder.itemView.findViewById(R.id.textTitle);
+        TextView textepis = holder.itemView.findViewById(R.id.textepis);
+        TextView textDes = holder.itemView.findViewById(R.id.texteDesd);
+        Episodio valor2 = data.get(position);
 
+        textepis.setText(valor2.getNombre());
+        textDes.setText(valor2.getDescripcion());
         String valor = a;
-
         texNomb.setText(valor);
     }
-
     @Override
     public int getItemCount() {
-        return 1;
+        return data.size();
     }
 
     public class NameViewHolder extends RecyclerView.ViewHolder {

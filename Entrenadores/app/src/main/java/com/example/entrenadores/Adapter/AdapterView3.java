@@ -18,9 +18,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.entrenadores.Entidades.Pokemones;
 import com.example.entrenadores.R;
+
+import java.util.ArrayList;
 import java.util.List;
 public class AdapterView3  extends RecyclerView.Adapter<AdapterView3.NameViewHolder>
         implements View.OnClickListener {
+
+    private ArrayList<Pokemones> listaPokemones;
 
 
 
@@ -35,9 +39,14 @@ public class AdapterView3  extends RecyclerView.Adapter<AdapterView3.NameViewHol
 
     public AdapterView3(List<Pokemones> data ) {
         this.data = data;
-
     }
-    int contador = 0;
+
+    public void changeItem(int position,int pokemon){
+        data.get(position).changeImagen(pokemon);
+        estrellas.setImageResource(data.get(position).getImageView2());
+        estrellas.setOnClickListener(this);
+    }
+
     @NonNull
     @Override
     public NameViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -61,16 +70,15 @@ public class AdapterView3  extends RecyclerView.Adapter<AdapterView3.NameViewHol
         TextView medalla = holder.itemView.findViewById(R.id.textMedalla);
         estrellas = holder.itemView.findViewById(R.id.imageId);
         ImageView imageView2 = holder.itemView.findViewById(R.id.imageView2);
-     //   btnPokemon = holder.itemView.findViewById(R.id.btnPokemon);
-        // img = holder.itemView.findViewById(R.id.btnPokemon);
-         valor =data.get(position);
-
+        valor =data.get(position);
 
 
         nombre.setText(valor.getNombre());
         medalla.setText(valor.getClase());
         imageView2.setImageResource(valor.getImagePokemon());
+
         estrellas.setImageResource(valor.getImageView());
+
         estrellas.setOnClickListener(this);
         estrellas.setTag(position);
         nombre.setTag(position);
@@ -85,15 +93,9 @@ public class AdapterView3  extends RecyclerView.Adapter<AdapterView3.NameViewHol
     @Override
     public void onClick(View view)  {
 
-
-
-        int count = data.size()+1;
-
         int postion = (int) view.getTag(); // Posicion
 
-        //valor =data.get(postion);
-
-        Pokemones objeto = data.get(posicion2);
+        Pokemones objeto = data.get(postion);
 
         String contado = String.valueOf(postion);
 
@@ -101,7 +103,18 @@ public class AdapterView3  extends RecyclerView.Adapter<AdapterView3.NameViewHol
              switch (view.getId()){
                  case R.id.imageId:
                        //  imageView2 = objeto.getImageView2();
-                         estrellas.setImageResource(data.get(4).getImageView2());
+                        // estrellas.setImageResource(data.get(4).getImageView2());
+
+                        // estrellas.setImageResource(objeto.getImageView2());
+
+                        changeItem(postion,R.drawable.ic_action_name2);
+                        // changeItem(postion,R.drawable.ic_action_name2);
+                        //data.get(position).changeImagen(pokemon);
+                      //   data.get(postion).changeImagen(R.drawable.ic_action_name2);
+                       //  estrellas.setBackgroundResource(data.get(postion).getImageView2());
+
+                        //  objeto.changeImagen(R.id.imageView2);
+
                          Toast.makeText(context,"Pos: "+contado,Toast.LENGTH_SHORT).show();
                          /*
                          estrellas.setImageResource(objeto.getImageView());
