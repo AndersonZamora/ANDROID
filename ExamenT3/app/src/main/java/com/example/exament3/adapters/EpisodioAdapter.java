@@ -35,7 +35,6 @@ public class EpisodioAdapter extends RecyclerView.Adapter<EpisodioAdapter.AnimeV
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.custom_view2,parent,false);
 
-
         AnimeViewHolder viewHolder = new AnimeViewHolder(view);
 
         return viewHolder;

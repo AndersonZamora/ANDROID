@@ -84,8 +84,11 @@ public class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHol
             public void onClick(View view) {
                 Context context = view.getContext();
 
+
+
                 Intent intent = new Intent(context, EpisodioActivity.class);
                 intent.putExtra("POSITION",position);
+                intent.putExtra("url",anime.url);
                 activity.startActivity(intent);
             }
         });

@@ -6,6 +6,7 @@ public class Anime {
 
     public String nombre;
     public boolean estado;
+    public String url;
     public int imagen;
     public List<Episodio> episodios;
 

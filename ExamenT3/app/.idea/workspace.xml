@@ -1,53 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8b34e1-6d96-475f-996a-decf4d2a5d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/java/com/example/frutas/ExampleAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/java/com/example/frutas/ExampleIten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/res/drawable/ic_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/res/drawable/ic_audio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/res/drawable/ic_sun.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/res/layout/example_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Entidades/Animes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Entidades/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Entidades/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-hdpi/ic_lauche_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-hdpi/ic_launche_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-hdpi/ic_launche_name3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-mdpi/ic_lauche_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-mdpi/ic_launche_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-mdpi/ic_launche_name3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xhdpi/ic_lauche_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xhdpi/ic_launche_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xhdpi/ic_launche_name3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xxhdpi/ic_lauche_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xxhdpi/ic_launche_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xxhdpi/ic_launche_name3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xxxhdpi/ic_lauche_name2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xxxhdpi/ic_launche_name1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/drawable-xxxhdpi/ic_launche_name3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/Adapter/AdapterView3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/Adapter/AdapterView3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/Entidades/Pokemones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/Entidades/Pokemones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/ListaPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/ListaPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entrenadores/app/src/main/java/com/example/entrenadores/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Entrenadores/app/src/main/res/layout/lista1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Entrenadores/app/src/main/res/layout/lista1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frutas/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frutas/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frutas/app/src/main/java/com/example/frutas/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/java/com/example/frutas/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frutas/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frutas/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Frutas/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Frutas/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Adapter/CarAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Adapter/CarAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Adapter/CarApdaterD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Adapter/CarApdaterD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Escuchar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/Escuchar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/java/com/example/recyclerview/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/layout/custom_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/layout/custom_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/layout/custom_view2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../RecyclerView/app/src/main/res/layout/custom_view2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exament3/AnimeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exament3/AnimeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exament3/EpisodioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exament3/EpisodioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/AnimeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/AnimeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/EpisodioAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/EpisodioAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Episodio.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +30,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="ZY223LMMGH" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Android_Accelerated_x86_Oreo" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -67,73 +40,67 @@
       </state>
     </system>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/EpisodioActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="66" />
+              <folding>
+                <element signature="e#1284#1434#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/AnimeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="33" />
+              <folding>
+                <element signature="e#1342#2010#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Episodio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Anime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/exament3/AnimeActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/EpisodioAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/AnimeAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/exament3/EpisodioActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="170" />
+    <option name="y" value="92" />
+    <option name="width" value="1026" />
+    <option name="height" value="554" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,23 +108,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ExamenT3" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -250,31 +208,149 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32980332" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info anchor="bottom" id="Logcat" weight="0.32850242" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32850242" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.16641453" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.14492753" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.55394524" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.2673108" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16641453" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.14492753" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.55394524" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.2673108" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="35" column="33" selection-start-line="21" selection-start-column="7" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Anime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/entities/Episodio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/EpisodioAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/adapters/AnimeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+          <folding>
+            <element signature="e#2718#3070#0" expanded="true" />
+            <element signature="e#3069#3070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/AnimeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="e#1342#2010#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/exament3/EpisodioActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="66" />
+          <folding>
+            <element signature="e#1284#1434#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

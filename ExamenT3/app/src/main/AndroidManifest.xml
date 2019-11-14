@@ -13,8 +13,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".EpisodioActivity"></activity>
-        <activity android:name=".AnimeActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AnimeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
